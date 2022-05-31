@@ -1,0 +1,117 @@
+
+.fondo-nav{
+    background-color: rgb(3, 130, 3); 
+}
+.jumbotron{
+    background-image: url(/assert/img/secos.jpg); background-size: cover;
+    color:rgb(252, 255, 252);
+    text-shadow: 1px 2px 3px rgb(38, 170, 5);
+    border-radius: 0%;
+    margin-bottom: 0;
+}
+.jumbotron p{
+    font-size: 24px;
+    color:rgb(253, 255, 254);
+    
+}
+h2{
+    text-align: center;
+    background-color: springgreen;
+    color: blanchedalmond;
+    text-transform: capitalize;
+    padding: 10px;
+}
+.nosotros{
+    height: 500px;
+    width: 100%;
+    background-color: black;
+
+}
+.row{
+    height: 500px;
+}
+
+.nleft{
+    background-color: aquamarine;
+    background-image: url(/assert/img/quienes.jpg);
+    background-size: cover;
+    background-position: left;
+
+}
+.nright{
+    background-color: forestgreen;
+    padding: 20px;
+
+}
+.nright h3{
+    text-align: center;
+}
+.nright p{
+    text-align: justify;
+
+}
+#footer {
+    padding-bottom:  0;
+    position: absolute;
+    background-color: rgb(3, 73, 11);
+    width: 100%;
+    height: 110px;
+    
+}
+
+.titulofooter {
+    color: white;
+    text-align: center;
+    font-family: 'Koulen', cursive;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.redes a:hover {
+    color: white;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+}
+
+.redes a {
+    color: white;
+    transition: color 0.2s;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px;
+}
+.texto {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: green;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    position: relative;
+}
+.container-fluid{
+   width: 100%;
+   height: auto;
+   
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .footer__headline {
+    font-weight: bold;
+    font-family: 'Helvetica';
+  }
+  
+  .footer__list {
+    font-family: 'Helvetica';
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
